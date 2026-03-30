@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NyxNods")(type "KiCad")(uri "${KIPRJMOD}/NyxNods.kicad_sym")(options "")(descr ""))
+)
