@@ -2464,7 +2464,6 @@
 			(at 20.32 6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2475,7 +2474,6 @@
 			(at 20.32 4.318 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
