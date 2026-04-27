@@ -3214,7 +3214,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 8.128 6.096 0)
+				(at 8.382 13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3302,7 +3302,7 @@
 			)
 			(symbol "TPS62842DGRR_0_1"
 				(pin unspecified line
-					(at 0 0 0)
+					(at 40.64 5.08 180)
 					(length 7.62)
 					(name "VOS"
 						(effects
@@ -3320,7 +3320,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
+					(at 40.64 10.16 180)
 					(length 7.62)
 					(name "SW"
 						(effects
@@ -3338,7 +3338,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 0)
+					(at 40.64 -12.7 180)
 					(length 7.62)
 					(name "MODE"
 						(effects
@@ -3356,7 +3356,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -7.62 0)
+					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "VSET"
 						(effects
@@ -3374,7 +3374,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -10.16 180)
+					(at 0 5.08 0)
 					(length 7.62)
 					(name "EN"
 						(effects
@@ -3392,7 +3392,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -7.62 180)
+					(at 0 10.16 0)
 					(length 7.62)
 					(name "VIN"
 						(effects
@@ -3410,7 +3410,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 40.64 -5.08 180)
+					(at 0 -2.54 0)
 					(length 7.62)
 					(name "NC"
 						(effects
@@ -3428,7 +3428,7 @@
 					)
 				)
 				(pin power_out line
-					(at 40.64 -2.54 180)
+					(at 0 -8.89 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -3446,7 +3446,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 0 180)
+					(at 0 -12.7 0)
 					(length 7.62)
 					(name "EPAD"
 						(effects
@@ -3466,7 +3466,7 @@
 			)
 			(symbol "TPS62842DGRR_1_1"
 				(rectangle
-					(start 7.62 5.08)
+					(start 7.62 12.7)
 					(end 33.02 -15.24)
 					(stroke
 						(width 0)
@@ -3747,10 +3747,28 @@
 		(uuid "08400974-a641-49f8-9013-c72e5bb21358")
 	)
 	(junction
+		(at 190.5 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ce56cd1-ad00-4020-8239-b5b61f6d7faa")
+	)
+	(junction
 		(at 76.2 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14c9f5a5-2a4f-4794-9dd9-9dc7126e7c4a")
+	)
+	(junction
+		(at 218.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e32835-6185-4fc4-ac39-0cf6b8986a4a")
+	)
+	(junction
+		(at 132.08 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5392d5-e0fc-4dad-acf3-48c58c0c2c0f")
 	)
 	(junction
 		(at 20.32 92.71)
@@ -3795,6 +3813,12 @@
 		(uuid "3a021d1c-fd26-436b-a619-e7c1ecd783bb")
 	)
 	(junction
+		(at 218.44 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a61679e-77d0-4239-872d-37e5253e01f0")
+	)
+	(junction
 		(at 20.32 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3819,7 +3843,7 @@
 		(uuid "4859c58c-777c-4565-9dae-34f3e812f01b")
 	)
 	(junction
-		(at 124.46 25.4)
+		(at 115.57 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49e89199-c96d-4ec8-8720-65e0a86ce957")
@@ -3829,6 +3853,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a6af23c-d7e0-42ce-80ac-3b06abbfd2c6")
+	)
+	(junction
+		(at 218.44 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1e535f-8f25-4deb-b03a-6a87ae9befb2")
+	)
+	(junction
+		(at 146.05 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff4a2e0-617d-43e7-9932-7786135c6236")
 	)
 	(junction
 		(at 76.2 97.79)
@@ -3841,6 +3877,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58a441e1-47bc-450b-8eff-104ba41bddf1")
+	)
+	(junction
+		(at 189.23 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5c5693-24de-4107-995d-83a19a154d0f")
 	)
 	(junction
 		(at 114.3 74.93)
@@ -3867,10 +3909,10 @@
 		(uuid "73cb96a6-a5e8-4e49-b5c1-114262d9beab")
 	)
 	(junction
-		(at 143.51 36.83)
+		(at 198.12 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7422fff6-b3f6-4519-820f-415296217a24")
+		(uuid "7419d4f6-c3c4-4def-b9d0-3bba140ff901")
 	)
 	(junction
 		(at 76.2 105.41)
@@ -3901,6 +3943,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b776a8e-e221-439e-abc9-1fe55eebf80a")
+	)
+	(junction
+		(at 190.5 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d2b01d4-0ac3-499e-b755-41be90ef9f19")
 	)
 	(junction
 		(at 20.32 46.99)
@@ -3945,16 +3993,46 @@
 		(uuid "d424a877-6911-4b71-ae6f-528143f04533")
 	)
 	(junction
+		(at 128.27 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7e60b7f-9f57-4e26-999f-27bb21fb8c82")
+	)
+	(junction
+		(at 146.05 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d84b837c-be67-4fac-86d1-9093aaf51f45")
+	)
+	(junction
 		(at 76.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8cf87ab-a470-4f93-966f-797ae3291928")
 	)
 	(junction
+		(at 139.7 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ebbbe2-1954-45d6-bf2e-94f5c6124daf")
+	)
+	(junction
 		(at 114.3 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e355927a-f135-4f9e-90ab-349723535151")
+	)
+	(junction
+		(at 137.16 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e86dcf61-f68d-484c-b1c0-d052a5e26e2d")
+	)
+	(junction
+		(at 146.05 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8a95e0b-e374-4983-986f-2b5833260c2e")
 	)
 	(junction
 		(at 213.36 40.64)
@@ -3985,6 +4063,16 @@
 	(no_connect
 		(at 204.47 66.04)
 		(uuid "6bd4eaff-b907-433f-8055-8178c5d2d3a4")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fdedd5-fb39-4f87-893d-c3f8a65f0688")
 	)
 	(wire
 		(pts
@@ -4058,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 104.14) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12dded0b-1d64-404f-9906-29a997434b62")
+	)
+	(wire
+		(pts
 			(xy 76.2 92.71) (xy 76.2 90.17)
 		)
 		(stroke
@@ -4088,13 +4186,43 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 25.4) (xy 124.46 27.94)
+			(xy 115.57 25.4) (xy 115.57 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16d3e794-abbf-4174-9e28-011f3adb6306")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1954b2a0-74a6-4ee1-94cd-94304244484d")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ce3722-67c5-46bb-9b65-09bacbc3b588")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a62f4fb-d347-4539-b691-74cdec1920db")
 	)
 	(wire
 		(pts
@@ -4118,6 +4246,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0e85df-2567-480f-ba22-695c0acfd9fb")
+	)
+	(wire
+		(pts
 			(xy 76.2 49.53) (xy 76.2 46.99)
 		)
 		(stroke
@@ -4125,6 +4263,16 @@
 			(type default)
 		)
 		(uuid "1f9c5b4a-82f2-4a2e-aa4c-6d0211362c18")
+	)
+	(wire
+		(pts
+			(xy 198.12 115.57) (xy 198.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22012895-4116-4a65-a25b-10e765987e3d")
 	)
 	(wire
 		(pts
@@ -4198,6 +4346,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 91.44) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327a4ff1-36f6-450c-9a4d-3e83be4ef398")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337ab9bc-2435-41b3-8fc2-b8ce617060b3")
+	)
+	(wire
+		(pts
 			(xy 128.27 53.34) (xy 128.27 54.61)
 		)
 		(stroke
@@ -4238,16 +4406,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 35.56) (xy 193.04 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fdd0d26-6055-4aa6-a74e-b8878c19e265")
-	)
-	(wire
-		(pts
 			(xy 20.32 46.99) (xy 38.1 46.99)
 		)
 		(stroke
@@ -4268,6 +4426,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 115.57) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473bc2ee-a3eb-484c-bc06-0696f8299e26")
+	)
+	(wire
+		(pts
 			(xy 76.2 107.95) (xy 76.2 105.41)
 		)
 		(stroke
@@ -4278,13 +4446,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 31.75) (xy 134.62 34.29)
+			(xy 127 31.75) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49ba078e-6166-464f-80e5-0444787f2bca")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afd25f9-4df5-4ba2-b20d-14bc6e217f50")
 	)
 	(wire
 		(pts
@@ -4318,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 124.46 35.56)
+			(xy 115.57 33.02) (xy 115.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4355,6 +4533,16 @@
 			(type default)
 		)
 		(uuid "5447e2ff-3464-46ba-aad4-84487897edc3")
+	)
+	(wire
+		(pts
+			(xy 218.44 115.57) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549c238e-d7df-451d-bf99-ac23177d9d48")
 	)
 	(wire
 		(pts
@@ -4438,6 +4626,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 97.79) (xy 218.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5e01cd-3d06-4b63-86b8-d2de07a61d12")
+	)
+	(wire
+		(pts
 			(xy 73.66 110.49) (xy 76.2 110.49)
 		)
 		(stroke
@@ -4448,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 25.4) (xy 147.32 25.4)
+			(xy 115.57 25.4) (xy 139.7 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4478,6 +4676,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 29.21) (xy 147.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f56123-005b-47fc-9982-1e3d76615fa8")
+	)
+	(wire
+		(pts
 			(xy 182.88 35.56) (xy 185.42 35.56)
 		)
 		(stroke
@@ -4495,6 +4703,16 @@
 			(type default)
 		)
 		(uuid "6a52b913-d9ce-4f34-bbdd-3734c2a1966f")
+	)
+	(wire
+		(pts
+			(xy 187.96 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be325b4-6043-4413-b272-5816ae3ce236")
 	)
 	(wire
 		(pts
@@ -4518,7 +4736,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 29.21) (xy 147.32 29.21)
+			(xy 132.08 29.21) (xy 133.35 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4548,6 +4766,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 109.22) (xy 218.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a37e137-a080-4748-9649-1f20557fda3d")
+	)
+	(wire
+		(pts
 			(xy 128.27 64.77) (xy 128.27 67.31)
 		)
 		(stroke
@@ -4568,7 +4796,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 34.29) (xy 139.7 29.21)
+			(xy 146.05 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f351065-0b33-4271-9dcc-85fe4381189e")
+	)
+	(wire
+		(pts
+			(xy 132.08 34.29) (xy 132.08 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4605,6 +4843,16 @@
 			(type default)
 		)
 		(uuid "85c087cd-f4a0-40e8-972a-437cc0ce51dd")
+	)
+	(wire
+		(pts
+			(xy 139.7 25.4) (xy 147.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e3efa0-8dd5-486e-ab30-d5001075dac8")
 	)
 	(wire
 		(pts
@@ -4708,6 +4956,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ace603-33e3-41b4-9933-716fed952b29")
+	)
+	(wire
+		(pts
 			(xy 20.32 49.53) (xy 38.1 49.53)
 		)
 		(stroke
@@ -4735,6 +4993,16 @@
 			(type default)
 		)
 		(uuid "9490f489-da37-4ce2-a1ee-3e4ad4aa63db")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 218.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975b132c-358c-4ef0-8f53-a417ed6f3632")
 	)
 	(wire
 		(pts
@@ -4768,6 +5036,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00d2d7e-8fae-4d7b-ad2e-e363b232f805")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15f3674-9169-4c5f-8bae-ae96e778acf4")
+	)
+	(wire
+		(pts
 			(xy 218.44 21.59) (xy 218.44 25.4)
 		)
 		(stroke
@@ -4778,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 34.29) (xy 139.7 34.29)
+			(xy 127 34.29) (xy 132.08 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4878,6 +5166,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 92.71) (xy 215.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa32a82e-ab9b-46ab-bd6e-af7b025d7073")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8d5853-fea9-41ef-86cf-4634ca555781")
+	)
+	(wire
+		(pts
 			(xy 134.62 55.88) (xy 134.62 54.61)
 		)
 		(stroke
@@ -4948,13 +5256,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 62.23) (xy 147.32 62.23)
+			(xy 143.51 62.23) (xy 146.05 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2143ecf-d739-482a-aad3-ca3c99a22526")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48e884a-ff14-4a22-8c35-0666240dac5c")
 	)
 	(wire
 		(pts
@@ -4998,13 +5316,63 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 22.86) (xy 124.46 25.4)
+			(xy 190.5 35.56) (xy 193.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b967e5d7-563f-4406-b333-ffebb4d72fdb")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1a4b16-99c9-49f7-9af8-0c9abca32940")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc3b6ca-55d1-4627-890c-cfd67a5dd79e")
+	)
+	(wire
+		(pts
+			(xy 115.57 22.86) (xy 115.57 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc1bec3d-c4e4-4c33-91ed-c80dd88e632d")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.22) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcde5395-e7c5-44cd-b7b5-96c25957ec71")
+	)
+	(wire
+		(pts
+			(xy 187.96 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4d950b-82bb-49dd-92f8-6f72fe2a6b39")
 	)
 	(wire
 		(pts
@@ -5018,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 128.27 77.47)
+			(xy 128.27 74.93) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +5413,16 @@
 			(type default)
 		)
 		(uuid "c00877db-af23-4708-9fc3-e98d76fdb8ec")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 137.16 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25d894a-26f6-411d-a9ee-ae7c36572e69")
 	)
 	(wire
 		(pts
@@ -5088,6 +5466,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfcf2c7-3f83-4f17-9796-f5ff0cd41c49")
+	)
+	(wire
+		(pts
 			(xy 128.27 59.69) (xy 128.27 62.23)
 		)
 		(stroke
@@ -5115,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "cf91eb81-5790-480a-901a-794d235dc5c2")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 218.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd11ada-e4a0-48d3-84ac-65652d4969db")
 	)
 	(wire
 		(pts
@@ -5158,6 +5556,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 92.71) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deabe828-1fc8-4121-8d3b-ff97bfcad62d")
+	)
+	(wire
+		(pts
 			(xy 73.66 44.45) (xy 76.2 44.45)
 		)
 		(stroke
@@ -5165,6 +5573,16 @@
 			(type default)
 		)
 		(uuid "df66bb3d-4482-4bd9-858d-aed7e48b7453")
+	)
+	(wire
+		(pts
+			(xy 218.44 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e203a658-d6ec-4b4a-b4c4-760e81dedb86")
 	)
 	(wire
 		(pts
@@ -5198,16 +5616,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 33.02) (xy 143.51 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e72984e7-44f1-4e31-8c3c-0a9ce73414ae")
-	)
-	(wire
-		(pts
 			(xy 81.28 26.67) (xy 81.28 27.94)
 		)
 		(stroke
@@ -5228,7 +5636,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 44.45) (xy 147.32 44.45)
+			(xy 137.16 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb09952f-c25c-432e-9794-ee147068b464")
+	)
+	(wire
+		(pts
+			(xy 114.3 44.45) (xy 132.08 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5245,6 +5663,16 @@
 			(type default)
 		)
 		(uuid "f0cde131-4814-4b41-beb6-d4233f4c60f4")
+	)
+	(wire
+		(pts
+			(xy 198.12 114.3) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13651cb-9eed-47ec-9553-73cfb3610832")
 	)
 	(wire
 		(pts
@@ -5265,6 +5693,16 @@
 			(type default)
 		)
 		(uuid "f66e32dd-0eda-4156-bb34-a55e4291fce1")
+	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f823c8ee-601b-42d5-b569-021605d9a06d")
 	)
 	(wire
 		(pts
@@ -5318,6 +5756,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 44.45) (xy 147.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee61960-f471-4366-960b-99d23f899037")
+	)
+	(wire
+		(pts
 			(xy 144.78 53.34) (xy 144.78 52.07)
 		)
 		(stroke
@@ -5357,7 +5805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5851,109 +6299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NyxNods:TPS62842DGRR")
-		(at 133.35 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18ed5e3b-abca-4e62-90b6-911da4d0bd6e")
-		(property "Reference" "U2"
-			(at 153.67 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS62842DGRR"
-			(at 153.67 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "VSSOP_42DGRR_TEX"
-			(at 133.35 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps62840"
-			(at 133.35 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0acf3b46-c7dd-46ee-a4c1-a1d353df4d25")
-		)
-		(pin "EPAD"
-			(uuid "a88f2624-c1fc-410b-b418-405459f05f15")
-		)
-		(pin "4"
-			(uuid "0b9ddbe7-dad0-46f1-87d3-8ba5de8b884c")
-		)
-		(pin "3"
-			(uuid "170b442b-72f8-46ed-a05b-280752e2bc2a")
-		)
-		(pin "8"
-			(uuid "5f4168c7-de8a-4fa7-9342-fb9cee20246c")
-		)
-		(pin "1"
-			(uuid "92161bd8-11de-46fb-9c69-cc33d9d109aa")
-		)
-		(pin "7"
-			(uuid "c3c9466e-8270-4060-bafb-42c753532635")
-		)
-		(pin "6"
-			(uuid "52bc4992-01d7-43a4-a12c-ed89bd381bcf")
-		)
-		(pin "5"
-			(uuid "8a17b626-7b68-46f6-a221-2a7ebb7abe06")
-		)
-		(instances
-			(project "NyxNodsMotherboard"
-				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 20.32 86.36 0)
 		(unit 1)
@@ -6031,8 +6376,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NyxNods:CPG-04-TH-TR")
-		(at 144.78 106.68 0)
+		(lib_id "Connector:TestPoint")
+		(at 189.23 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6040,32 +6385,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e6f3e52-4ed3-4160-af50-a56634133a90")
-		(property "Reference" "J2"
-			(at 151.13 105.4099 0)
+		(uuid "1de42af0-f819-469f-b287-4aa2e5479a2f")
+		(property "Reference" "TP6"
+			(at 190.754 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "CPG-04-TH-TR"
-			(at 151.13 107.9499 0)
+		(property "Value" "SW"
+			(at 190.754 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CPG-04-TH-TR:SAMESKY_CPG-04-TH-TR"
-			(at 144.78 106.68 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,11 +6417,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 106.68 0)
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6087,8 +6430,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 144.78 106.68 0)
+		(property "Description" "test point"
+			(at 189.23 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6096,63 +6439,92 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PARTREV" "1.01"
-			(at 144.78 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 144.78 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
-			(at 144.78 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Same Sky"
-			(at 144.78 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "1"
-			(uuid "84ba755a-c226-494e-a30c-4a9ef29b832f")
+			(uuid "1d99ac0a-df28-447f-ac7c-11f26913d68c")
 		)
 		(instances
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
-					(reference "J2")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 134.62 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "248af53b-d16e-4741-96f5-0e6fdc608672")
+		(property "Reference" "#PWR032"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 134.62 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 134.62 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b793b45-d7c0-4ad3-a595-e34753ac0791")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6313,8 +6685,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NyxNods:LTST-C235KGKRKT")
-		(at 195.58 35.56 0)
+		(lib_id "power:GND")
+		(at 198.12 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6322,29 +6694,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "39de1d17-1b5c-494b-ab5f-e899eb1021ae")
-		(property "Reference" "D3"
-			(at 197.104 27.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTST-C235KGKRKT"
-			(at 197.358 29.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
-			(at 195.58 35.56 0)
+		(uuid "39c77d39-ae36-488f-a3c0-6cbe0edaec57")
+		(property "Reference" "#PWR029"
+			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,11 +6704,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 35.56 0)
+			(at 198.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,8 +6738,8 @@
 				)
 			)
 		)
-		(property "Description" "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 1206 (3216 Metric)"
-			(at 195.58 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,145 +6747,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
-		)
-		(property "MF" "Lite-On Inc."
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "1206 Lite-On"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "1206 Lite-On"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=eda"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=snap"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LTST-C235KGKRKT"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "3"
-			(uuid "83fb9f2f-6d3e-4a13-9b50-bb575f1dd82a")
-		)
-		(pin "4"
-			(uuid "041ab1ca-5bee-43ee-a9e9-4b20ba14850b")
 		)
 		(pin "1"
-			(uuid "45a8f264-dd7d-4b48-9357-83641c75faca")
-		)
-		(pin "2"
-			(uuid "55a0a89b-7adc-44a1-bdc7-af1c0ccc67b2")
+			(uuid "41bcbbab-34b8-4571-b72f-e52a3d73ad62")
 		)
 		(instances
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
-					(reference "D3")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6763,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 134.62 31.75 0)
+		(at 127 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6531,7 +6773,7 @@
 		(dnp no)
 		(uuid "3b123115-916b-49b9-a8f5-da6f453b1962")
 		(property "Reference" "#PWR03"
-			(at 134.62 35.56 0)
+			(at 127 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,7 +6784,7 @@
 			)
 		)
 		(property "Value" "VBATT"
-			(at 134.62 28.194 0)
+			(at 127 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6552,7 +6794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 31.75 0)
+			(at 127 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6563,7 +6805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 31.75 0)
+			(at 127 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6574,7 +6816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 134.62 31.75 0)
+			(at 127 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6840,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.46 30.48 0)
+		(at 115.57 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6609,7 +6851,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d1d947a-4028-49b8-a97c-3c6152ec0173")
 		(property "Reference" "C3"
-			(at 127 29.2162 0)
+			(at 118.11 29.2162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6620,7 +6862,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 127 31.7562 0)
+			(at 118.11 31.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6630,8 +6872,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 30.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,7 +6884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 30.48 0)
+			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +6895,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 30.48 0)
+			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6709,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6789,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6909,6 +7151,84 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a2aa9f1-c7f0-4529-bb59-a1ea55fa9516")
+		(property "Reference" "TP4"
+			(at 141.224 20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VIN"
+			(at 141.224 18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 144.78 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78ade7b5-99e6-40c2-8701-686c25899286")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7321,7 +7641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7371,88 +7691,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 153.67 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66bb70bf-3a52-4b8e-ab4f-18453937464e")
-		(property "Reference" "C5"
-			(at 156.21 92.7162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 156.21 95.2562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e25c9aad-4697-4adf-ad33-5ebbb01aaab5")
-		)
-		(pin "2"
-			(uuid "a1bf473b-9105-4fd3-9fe1-98704c15f244")
-		)
-		(instances
-			(project "NyxNodsMotherboard"
-				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 114.3 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -7485,7 +7723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7605,6 +7843,165 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 198.12 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fcdd3cb-4e5a-4b41-952e-d96793f46f3d")
+		(property "Reference" "R15"
+			(at 199.39 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24k"
+			(at 199.39 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78d3b05b-e2a3-43d0-975e-ab6f7acdceef")
+		)
+		(pin "2"
+			(uuid "c70bb873-d50d-4afb-bfaf-26fc6f1cf014")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74f42d83-e7d6-4663-b8e9-192f9f748bd0")
+		(property "Reference" "TP2"
+			(at 144.78 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS"
+			(at 144.78 70.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 140.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40c481dc-4a7c-4a32-9c65-7b8a2c03c625")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7843,6 +8240,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7eb3fcd5-df1e-43bf-b3ec-28d784d364a4")
+		(property "Reference" "TP3"
+			(at 133.858 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BATT"
+			(at 134.62 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a950641e-8530-4ed8-9d52-a6d7165f5fdf")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 187.96 35.56 270)
 		(mirror x)
@@ -7874,7 +8349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7917,6 +8392,88 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "829c3266-f054-49d0-9b78-a7176ae32256")
+		(property "Reference" "C7"
+			(at 215.9 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 215.9 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 218.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7071cc49-2ef1-4542-9a3c-d7aaa6301be3")
+		)
+		(pin "2"
+			(uuid "b2db7309-cc7d-4fdf-b1cc-a2bb541c67f4")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8000,6 +8557,214 @@
 		)
 	)
 	(symbol
+		(lib_id "NyxNods:LTST-C235KGKRKT")
+		(at 203.2 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "887c2736-1bee-4e2a-bceb-7d06eff2fa23")
+		(property "Reference" "D3"
+			(at 202.184 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 201.93 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 1206 (3216 Metric)"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Lite-On Inc."
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "1206 Lite-On"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206 Lite-On"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=eda"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=snap"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LTST-C235KGKRKT"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 203.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "83fb9f2f-6d3e-4a13-9b50-bb575f1dd82a")
+		)
+		(pin "4"
+			(uuid "041ab1ca-5bee-43ee-a9e9-4b20ba14850b")
+		)
+		(pin "1"
+			(uuid "db33d5d8-a516-4395-bfeb-62a461e97cd9")
+		)
+		(pin "2"
+			(uuid "ec93a844-321d-41d7-8c78-605951b832cb")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 114.3 69.85 0)
 		(unit 1)
@@ -8032,7 +8797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8081,6 +8846,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 135.89 29.21 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ad5b41d-b0b7-40ea-b6c4-d0d084c58752")
+		(property "Reference" "R16"
+			(at 135.89 27.178 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 136.398 31.242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b3b4993-3827-4ca3-b768-de6091a6213a")
+		)
+		(pin "2"
+			(uuid "d62435f7-baf6-48a3-9e6f-12edcc808d84")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 218.44 34.29 0)
 		(unit 1)
@@ -8114,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8164,6 +9009,87 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 190.5 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c8487ec-076c-4aa3-93ef-4dd916bd6081")
+		(property "Reference" "R14"
+			(at 191.77 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "13k"
+			(at 191.77 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 190.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "171f8a4e-77e4-4a34-acf0-c4649b3d2b31")
+		)
+		(pin "2"
+			(uuid "a8b0cb2d-3bd0-472f-b8ec-d6ff27ee72d5")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 187.96 40.64 270)
 		(mirror x)
 		(unit 1)
@@ -8194,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8321,6 +9247,165 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 146.05 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90e1f6f5-4507-4e5f-919c-88aa02c3fb67")
+		(property "Reference" "#PWR030"
+			(at 146.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5550e61d-41c6-46e3-af52-4ad743ccfdfc")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9747e66d-51f9-4373-b2da-95b7466516b7")
+		(property "Reference" "C6"
+			(at 134.62 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 134.62 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "207e9034-956f-4b25-9452-94b157ef72ee")
+		)
+		(pin "2"
+			(uuid "9804d46b-5c71-4295-97cf-cd204811fda4")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 20.32 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -8391,88 +9476,6 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99f480ac-927b-4000-9fc9-cca7d1392e80")
-		(property "Reference" "C4"
-			(at 147.32 92.7162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 147.32 95.2562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da1fdfca-b86d-40b5-ba01-39fa10a29365")
-		)
-		(pin "2"
-			(uuid "9020756d-64aa-4a49-a6ce-c120a16feb90")
-		)
-		(instances
-			(project "NyxNodsMotherboard"
-				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8556,38 +9559,63 @@
 		)
 	)
 	(symbol
-		(lib_id "NyxNods:LTST-C235KGKRKT")
-		(at 200.66 40.64 0)
-		(unit 2)
+		(lib_id "NyxNods:TPS62842DGRR")
+		(at 147.32 102.87 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9b88266d-6778-4ac7-80a7-920e7a30a4fc")
-		(property "Reference" "D4"
-			(at 201.676 43.18 0)
+		(fields_autoplaced yes)
+		(uuid "9f1d9d2f-1bc8-4323-8871-c3fc760a2b49")
+		(property "Reference" "U2"
+			(at 167.64 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS62842DGRR"
+			(at 167.64 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "NyxNods:VSSOP_42DGRR_TEX"
+			(at 147.32 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "LTST-C235KGKRKT"
-			(at 202.184 45.212 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps62840"
+			(at 147.32 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
-			(at 200.66 40.64 0)
+		(property "Description" ""
+			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8595,169 +9623,40 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 1206 (3216 Metric)"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Lite-On Inc."
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "1206 Lite-On"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "1206 Lite-On"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=eda"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=snap"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LTST-C235KGKRKT"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 200.66 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
+		(pin "5"
+			(uuid "0d846655-9707-4b2b-8f07-34857513fae8")
 		)
 		(pin "3"
-			(uuid "a024c5ff-6d4e-4f74-818a-c5ae70552fda")
+			(uuid "34fac48c-66aa-4b21-b5e4-7586515cf828")
+		)
+		(pin "6"
+			(uuid "1660ea0c-7940-41ad-949f-d7d05b64e9b8")
+		)
+		(pin "7"
+			(uuid "54266eec-855c-4ac9-bf42-311eb08533ac")
+		)
+		(pin "8"
+			(uuid "7716d450-6d5c-4843-826b-fdbc82d4d6f3")
+		)
+		(pin "EPAD"
+			(uuid "6c78d929-ef27-4289-885a-207d1853ea4f")
 		)
 		(pin "4"
-			(uuid "03793d6e-2baa-47e5-9c0f-75680c99a64d")
+			(uuid "38f57f42-5ad4-4faf-8255-42243c85b045")
 		)
 		(pin "1"
-			(uuid "aca888f7-91b5-4788-a10e-6d309fbc0cf6")
+			(uuid "8651e7ca-f6b9-48fe-9d26-098d0a23640c")
 		)
 		(pin "2"
-			(uuid "aba0eda0-cef7-4538-a7b4-dff2c4e1878e")
+			(uuid "800fdc5c-f6d1-4359-a746-ea61722be711")
 		)
 		(instances
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
-					(reference "D4")
-					(unit 2)
+					(reference "U2")
+					(unit 1)
 				)
 			)
 		)
@@ -8794,7 +9693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8837,6 +9736,497 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a68745ea-0cdb-42ca-8a3c-5f06d49faf44")
+		(property "Reference" "#PWR031"
+			(at 137.16 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ec5cca-ebdd-4ea1-945e-a0567aad3009")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NyxNods:CPG-04-TH-TR")
+		(at 232.41 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a745f760-8464-4fee-88c2-4562354611c3")
+		(property "Reference" "J2"
+			(at 238.76 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPG-04-TH-TR"
+			(at 238.76 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CPG-04-TH-TR:SAMESKY_CPG-04-TH-TR"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "1268bc41-bae0-43bd-84df-edd863826468")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NyxNods:LTST-C235KGKRKT")
+		(at 198.12 35.56 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a881c260-a366-48f8-9c83-57e73e686eaf")
+		(property "Reference" "D4"
+			(at 197.104 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 196.596 29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 1206 (3216 Metric)"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Lite-On Inc."
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "1206 Lite-On"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206 Lite-On"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=eda"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=snap"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LTST-C235KGKRKT"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "e69082be-45ba-49ea-87b6-ae5a69957e98")
+		)
+		(pin "4"
+			(uuid "30dfc735-df4a-46af-a5ce-d42ca4549111")
+		)
+		(pin "1"
+			(uuid "aca888f7-91b5-4788-a10e-6d309fbc0cf6")
+		)
+		(pin "2"
+			(uuid "aba0eda0-cef7-4538-a7b4-dff2c4e1878e")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "D4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 128.27 76.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa247410-7fe4-4d25-a389-71edbc3169e7")
+		(property "Reference" "TP5"
+			(at 133.604 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.636 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94372d4d-b22b-44cc-bf17-eefcad0031f8")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8921,7 +10311,7 @@
 	)
 	(symbol
 		(lib_id "NyxNods:SRP4020TA-2R2M")
-		(at 148.59 124.46 0)
+		(at 203.2 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8932,7 +10322,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab3db7bc-337e-44e7-bc6d-d3eb50e5f6d4")
 		(property "Reference" "L1"
-			(at 148.59 118.11 0)
+			(at 203.2 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8942,7 +10332,7 @@
 			)
 		)
 		(property "Value" "SRP4020TA-2R2M"
-			(at 148.59 120.65 0)
+			(at 203.2 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8952,7 +10342,7 @@
 			)
 		)
 		(property "Footprint" "SRP4020TA-2R2M:IND_SRP4020TA-2R2M"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +10354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8975,7 +10365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8986,7 +10376,7 @@
 			)
 		)
 		(property "MF" "Bourns"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +10388,7 @@
 			)
 		)
 		(property "Description_1" "Inductor, Power, Shielded, SMD, 2.2 uH, 6.0 A, 20% | Bourns SRP4020TA-2R2M"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9010,7 +10400,7 @@
 			)
 		)
 		(property "Package" "SMD-2 Bourns"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +10412,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9034,7 +10424,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SRP4020TA-2R2M/Bourns/view-part/?ref=eda"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +10436,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,7 +10448,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SRP4020TA-2R2M/Bourns/view-part/?ref=snap"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9070,7 +10460,7 @@
 			)
 		)
 		(property "MP" "SRP4020TA-2R2M"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +10472,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9094,7 +10484,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Bourns"
-			(at 148.59 124.46 0)
+			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9594,7 +10984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 20.32 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9720,6 +11110,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b960c860-0e58-422f-b1c7-0b58af5866ae")
+		(property "Reference" "#PWR033"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bf9322c-bab3-454f-a363-44500ac01f3a")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 218.44 27.94 270)
 		(unit 1)
@@ -9742,7 +11209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VBATT"
 			(at 223.52 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9753,7 +11220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 218.44 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9829,7 +11296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 20.32 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +11346,8 @@
 	)
 	(symbol
 		(lib_id "NyxNods:LTST-C235KGKRKT")
-		(at 207.01 66.04 0)
+		(at 209.55 66.04 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9889,7 +11357,7 @@
 		(dnp no)
 		(uuid "c0e42535-daaa-4a40-8536-96c12abcc86e")
 		(property "Reference" "D4"
-			(at 207.772 68.58 0)
+			(at 208.788 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9899,7 +11367,7 @@
 			)
 		)
 		(property "Value" "LTST-C235KGKRKT"
-			(at 208.026 70.612 0)
+			(at 208.534 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9909,7 +11377,7 @@
 			)
 		)
 		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +11389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +11400,7 @@
 			)
 		)
 		(property "Description" "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 1206 (3216 Metric)"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9944,7 +11412,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,7 +11424,7 @@
 			)
 		)
 		(property "PACKAGE" "1206 Lite-On"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +11436,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +11448,7 @@
 			)
 		)
 		(property "Package" "1206 Lite-On"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,7 +11460,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=eda"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,7 +11472,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10016,7 +11484,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=snap"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +11496,7 @@
 			)
 		)
 		(property "MP" "LTST-C235KGKRKT"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10040,7 +11508,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +11520,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 207.01 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,10 +11532,10 @@
 			)
 		)
 		(pin "3"
-			(uuid "83fb9f2f-6d3e-4a13-9b50-bb575f1dd82a")
+			(uuid "83fb9f2f-6d3e-4a13-9b50-bb575f1dd82b")
 		)
 		(pin "4"
-			(uuid "041ab1ca-5bee-43ee-a9e9-4b20ba14850b")
+			(uuid "041ab1ca-5bee-43ee-a9e9-4b20ba14850c")
 		)
 		(pin "1"
 			(uuid "62d48ab2-7a81-4772-8c4f-4b585eaf0ffe")
@@ -10115,7 +11583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10164,38 +11632,41 @@
 		)
 	)
 	(symbol
-		(lib_id "NyxNods:LTST-C235KGKRKT")
-		(at 207.01 55.88 0)
-		(unit 2)
+		(lib_id "NyxNods:CPG-04-TH-TR")
+		(at 232.41 115.57 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cfaa68cc-1ad8-4d2c-8ca5-e16590fcd41a")
-		(property "Reference" "D3"
-			(at 208.026 58.42 0)
+		(fields_autoplaced yes)
+		(uuid "c60449d4-0212-4135-bda4-1cd990d43608")
+		(property "Reference" "J7"
+			(at 238.76 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LTST-C235KGKRKT"
-			(at 208.534 60.452 0)
+		(property "Value" "CPG-04-TH-TR"
+			(at 238.76 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
-			(at 207.01 55.88 0)
+		(property "Footprint" "CPG-04-TH-TR:SAMESKY_CPG-04-TH-TR"
+			(at 232.41 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10207,7 +11678,133 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 55.88 0)
+			(at 232.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 232.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 232.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+			(at 232.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 232.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f3638c77-c38e-4e53-bbb3-d98ea007b599")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NyxNods:LTST-C235KGKRKT")
+		(at 209.55 55.88 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfaa68cc-1ad8-4d2c-8ca5-e16590fcd41a")
+		(property "Reference" "D3"
+			(at 208.534 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 208.026 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10218,7 +11815,7 @@
 			)
 		)
 		(property "Description" "Green, Red 571nm Green, 631nm Red LED Indication - Discrete 2V Green, 2V Red 1206 (3216 Metric)"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +11827,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10242,7 +11839,7 @@
 			)
 		)
 		(property "PACKAGE" "1206 Lite-On"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +11851,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10266,7 +11863,7 @@
 			)
 		)
 		(property "Package" "1206 Lite-On"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,7 +11875,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=eda"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10290,7 +11887,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10302,7 +11899,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C235KGKRKT/Lite-On/view-part/?ref=snap"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10314,7 +11911,7 @@
 			)
 		)
 		(property "MP" "LTST-C235KGKRKT"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10326,7 +11923,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10338,7 +11935,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 207.01 55.88 0)
+			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,10 +11953,10 @@
 			(uuid "c4b96fa7-38cc-4264-a255-142a9e4fbe6e")
 		)
 		(pin "1"
-			(uuid "aca888f7-91b5-4788-a10e-6d309fbc0cf6")
+			(uuid "aca888f7-91b5-4788-a10e-6d309fbc0cf7")
 		)
 		(pin "2"
-			(uuid "aba0eda0-cef7-4538-a7b4-dff2c4e1878e")
+			(uuid "aba0eda0-cef7-4538-a7b4-dff2c4e1878f")
 		)
 		(instances
 			(project "NyxNodsMotherboard"
@@ -10449,7 +12046,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 124.46 22.86 0)
+		(at 115.57 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10459,7 +12056,7 @@
 		(dnp no)
 		(uuid "d74d8535-0eb8-4d7a-926e-35f10f0f40f4")
 		(property "Reference" "#PWR07"
-			(at 124.46 26.67 0)
+			(at 115.57 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,7 +12067,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 124.46 19.304 0)
+			(at 115.57 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10480,7 +12077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 22.86 0)
+			(at 115.57 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10491,7 +12088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 22.86 0)
+			(at 115.57 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +12099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 124.46 22.86 0)
+			(at 115.57 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10555,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10605,7 +12202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 35.56 0)
+		(at 115.57 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10615,7 +12212,7 @@
 		(dnp no)
 		(uuid "d9821806-7355-4a79-8c88-91f74e22d6db")
 		(property "Reference" "#PWR08"
-			(at 124.46 41.91 0)
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10626,7 +12223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 39.37 0)
+			(at 115.57 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10636,7 +12233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 35.56 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +12244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 35.56 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10658,7 +12255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 35.56 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,6 +12272,83 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db5c5c25-6404-4031-a342-ee1a5bc45bc6")
+		(property "Reference" "#PWR09"
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed0d95e0-9b65-4629-adb8-f2a77f18584e")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10713,7 +12387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.04 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10911,6 +12585,86 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 140.97 33.02 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebd01343-4ec8-4e8f-be52-b50568334bb2")
+		(property "Reference" "R17"
+			(at 140.97 30.988 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 141.478 35.052 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 140.97 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d39beb56-721d-4802-85ec-407b974cefae")
+		)
+		(pin "2"
+			(uuid "c0dd4cf5-c854-4496-ae6c-8d1ef1d73e89")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11180,7 +12934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)

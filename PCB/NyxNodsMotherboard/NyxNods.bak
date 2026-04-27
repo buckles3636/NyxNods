@@ -2464,7 +2464,6 @@
 			(at 20.32 6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2475,7 +2474,6 @@
 			(at 20.32 4.318 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3524,7 +3522,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 8.128 6.096 0)
+			(at 8.382 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3612,7 +3610,7 @@
 		)
 		(symbol "TPS62842DGRR_0_1"
 			(pin unspecified line
-				(at 0 0 0)
+				(at 40.64 5.08 180)
 				(length 7.62)
 				(name "VOS"
 					(effects
@@ -3630,7 +3628,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -2.54 0)
+				(at 40.64 10.16 180)
 				(length 7.62)
 				(name "SW"
 					(effects
@@ -3648,7 +3646,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 0)
+				(at 40.64 -12.7 180)
 				(length 7.62)
 				(name "MODE"
 					(effects
@@ -3666,7 +3664,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -7.62 0)
+				(at 40.64 -5.08 180)
 				(length 7.62)
 				(name "VSET"
 					(effects
@@ -3684,7 +3682,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -10.16 180)
+				(at 0 3.81 0)
 				(length 7.62)
 				(name "EN"
 					(effects
@@ -3702,7 +3700,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -7.62 180)
+				(at 0 10.16 0)
 				(length 7.62)
 				(name "VIN"
 					(effects
@@ -3720,7 +3718,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -5.08 180)
+				(at 0 -3.81 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -3738,7 +3736,7 @@
 				)
 			)
 			(pin power_out line
-				(at 40.64 -2.54 180)
+				(at 0 -8.89 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3756,7 +3754,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 0 180)
+				(at 0 -12.7 0)
 				(length 7.62)
 				(name "EPAD"
 					(effects
@@ -3776,7 +3774,7 @@
 		)
 		(symbol "TPS62842DGRR_1_1"
 			(rectangle
-				(start 7.62 5.08)
+				(start 7.62 12.7)
 				(end 33.02 -15.24)
 				(stroke
 					(width 0)
