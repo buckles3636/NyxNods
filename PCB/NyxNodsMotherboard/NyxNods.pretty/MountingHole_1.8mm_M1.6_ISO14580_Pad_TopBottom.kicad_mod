@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.85 0)
 		(layer "F.SilkS")
-		(uuid "18a72f67-163c-4fe3-b253-75cbd8e5a9d3")
+		(uuid "db332ba3-5259-4049-9082-ec42e43e31a3")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "MountingHole_1.8mm_M1.6_ISO14580_Pad_TopBottom"
 		(at 0 2.85 0)
 		(layer "F.Fab")
-		(uuid "d9ce5c95-ffa4-4d14-b57c-1fee90a9ede5")
+		(uuid "7e032cb9-6fb7-4066-bccd-8b30daf70d64")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d97ca55-07dd-4220-8893-df5565ef6159")
+		(uuid "9391a26b-8d9f-4395-99e0-0deb9e54c051")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "df1c5b69-70e5-4188-b5fa-b0dd6ee46acb")
+		(uuid "4a1a20f0-8e14-47ac-b0bb-6d765b5aa47b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2fb79878-9d4f-4646-8b63-32b9bc36b6dd")
+		(uuid "431e9e2f-9a10-43d8-a7c9-f8aa85f680ac")
 		(effects
 			(font
 				(size 1 1)
@@ -72,12 +72,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "fc863731-d349-475e-a6c8-f041cd6ea30d")
+		(uuid "73d5ef35-1a94-4e5e-8497-b222c8a9abe3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "aca74355-73e3-45c7-9376-dcb61b94f8db")
+		(uuid "b7d5a8ac-9f09-44df-9759-4f2a80ae3287")
 		(effects
 			(font
 				(size 0.95 0.95)
@@ -92,21 +92,21 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "c5b34d4f-a665-4dc4-a628-6707d3fa80b9")
+		(uuid "84761a40-06aa-4e88-89c7-8df0db553f59")
 	)
 	(pad "1" connect circle
 		(at 0 0)
 		(size 3.2 3.2)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
-		(uuid "0d450874-3b1f-4698-897d-68ddc36ce082")
+		(uuid "da75b87c-adcc-4137-baea-e5833147c601")
 	)
 	(pad "1" connect circle
 		(at 0 0)
 		(size 3.2 3.2)
 		(layers "B.Cu" "B.Mask")
 		(zone_connect 2)
-		(uuid "75dedb5a-aaf1-42c1-af22-2cb1a8e84f16")
+		(uuid "1f3fb710-999a-4830-8e96-0dadccb2bd2f")
 	)
 	(embedded_fonts no)
 )
