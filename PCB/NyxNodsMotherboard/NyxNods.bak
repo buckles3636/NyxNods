@@ -3682,7 +3682,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 3.81 0)
+				(at 0 5.08 0)
 				(length 7.62)
 				(name "EN"
 					(effects
@@ -3718,7 +3718,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -3.81 0)
+				(at 0 -2.54 0)
 				(length 7.62)
 				(name "NC"
 					(effects

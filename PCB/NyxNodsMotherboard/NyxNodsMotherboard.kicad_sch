@@ -2100,6 +2100,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NyxNods:EVQ-PUC02K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 14.732 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EVQ-PUC02K"
+				(at 9.144 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EVQPUC02K"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.95"
+				(at 26.67 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "667-EVQ-PUC02K"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EVQ-PUC02K"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "EVQ-PUC02K_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NyxNods:LTST-C235KGKRKT"
 			(pin_names
 				(offset 1.016)
@@ -3753,6 +3963,12 @@
 		(uuid "0ce56cd1-ad00-4020-8239-b5b61f6d7faa")
 	)
 	(junction
+		(at 135.89 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14c3d5e6-90fa-46ee-8eca-75d32fd26e07")
+	)
+	(junction
 		(at 76.2 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3825,6 +4041,12 @@
 		(uuid "3a75261c-c150-4e96-ad29-d1ae83c8579b")
 	)
 	(junction
+		(at 135.89 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cefb84f-e079-4fb3-8368-aef2eb1f4613")
+	)
+	(junction
 		(at 110.49 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3861,16 +4083,22 @@
 		(uuid "4c1e535f-8f25-4deb-b03a-6a87ae9befb2")
 	)
 	(junction
-		(at 146.05 92.71)
+		(at 135.89 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ff4a2e0-617d-43e7-9932-7786135c6236")
+		(uuid "4d234684-f9f9-44af-bf1e-11ef03e6588f")
 	)
 	(junction
 		(at 76.2 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5297c1ab-d076-4aaf-b871-c47c44261b76")
+	)
+	(junction
+		(at 133.35 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ef0f71-8855-420a-80d4-d4013cc10110")
 	)
 	(junction
 		(at 185.42 62.23)
@@ -3975,6 +4203,12 @@
 		(uuid "b99345a5-705f-4123-811e-ae2db73c6f17")
 	)
 	(junction
+		(at 127 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc756dd8-4fc0-4f48-b56f-e25a618a26a4")
+	)
+	(junction
 		(at 20.32 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4011,6 +4245,12 @@
 		(uuid "d8cf87ab-a470-4f93-966f-797ae3291928")
 	)
 	(junction
+		(at 127 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5a6ecd-a83b-4ea9-b903-ccdd1835f7d4")
+	)
+	(junction
 		(at 139.7 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4023,7 +4263,7 @@
 		(uuid "e355927a-f135-4f9e-90ab-349723535151")
 	)
 	(junction
-		(at 137.16 92.71)
+		(at 116.84 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e86dcf61-f68d-484c-b1c0-d052a5e26e2d")
@@ -4039,6 +4279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e920ce4f-9399-4f7a-b2f0-cf3ff4ed3d2e")
+	)
+	(junction
+		(at 142.24 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee6d80e1-234f-4078-ad0d-47a7bd6972e3")
 	)
 	(junction
 		(at 76.2 110.49)
@@ -4063,6 +4309,26 @@
 	(no_connect
 		(at 204.47 66.04)
 		(uuid "6bd4eaff-b907-433f-8055-8178c5d2d3a4")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007b6f63-289a-4578-aa22-ab3102d866c0")
+	)
+	(wire
+		(pts
+			(xy 127 135.89) (xy 127 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0189bcf3-7ed8-4777-af9e-ff06104e01a1")
 	)
 	(wire
 		(pts
@@ -4116,6 +4382,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 135.89) (xy 135.89 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e578f30-4b40-4f04-8b2d-3f2a26e88525")
+	)
+	(wire
+		(pts
 			(xy 38.1 44.45) (xy 20.32 44.45)
 		)
 		(stroke
@@ -4146,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 137.16 92.71)
+			(xy 116.84 104.14) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4196,17 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 147.32 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1954b2a0-74a6-4ee1-94cd-94304244484d")
-	)
-	(wire
-		(pts
-			(xy 134.62 92.71) (xy 137.16 92.71)
+			(xy 114.3 92.71) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4243,6 +4509,26 @@
 			(type default)
 		)
 		(uuid "1c9483b2-7bb8-4dbf-b775-251ce01d050e")
+	)
+	(wire
+		(pts
+			(xy 133.35 134.62) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0be59b-435f-451e-a3b3-103af886aea8")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9f0fc3-0072-4dee-8576-22f08c5f4794")
 	)
 	(wire
 		(pts
@@ -4346,13 +4632,43 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 134.62 92.71)
+			(xy 144.78 100.33) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbf79d9-3cb3-4df9-893b-bbe454f28bc1")
+	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dcf9a6-bfcf-4dfd-8666-89cf9be8dc09")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "327a4ff1-36f6-450c-9a4d-3e83be4ef398")
+	)
+	(wire
+		(pts
+			(xy 127 143.51) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33545b82-ea01-4323-8829-3d02771a065c")
 	)
 	(wire
 		(pts
@@ -4443,6 +4759,16 @@
 			(type default)
 		)
 		(uuid "490828e7-574c-488d-ae59-3a836ee6a450")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a8d101-4d9a-4460-8109-f56d1a437717")
 	)
 	(wire
 		(pts
@@ -4796,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 147.32 92.71)
+			(xy 135.89 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4813,6 +5139,16 @@
 			(type default)
 		)
 		(uuid "7f84f0ce-3358-4195-aac2-d1d81d6f723f")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 135.89 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805f4238-ad3e-4b05-bf43-ba4e642058fa")
 	)
 	(wire
 		(pts
@@ -4833,6 +5169,16 @@
 			(type default)
 		)
 		(uuid "842b8122-1363-4f97-9fc7-37cfb87b46d4")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 135.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85760152-5bdc-4f55-b260-905fe0e9fe96")
 	)
 	(wire
 		(pts
@@ -4886,6 +5232,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbaf1a3-d47c-47dd-a941-d6be74720ac4")
+	)
+	(wire
+		(pts
 			(xy 20.32 107.95) (xy 20.32 113.03)
 		)
 		(stroke
@@ -4933,6 +5289,16 @@
 			(type default)
 		)
 		(uuid "90c0c1c0-0a04-4fa3-86a1-f5c3fa0a5a53")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915e9d4d-dd05-445c-8da5-91c9ab547110")
 	)
 	(wire
 		(pts
@@ -5176,16 +5542,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 146.05 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8d5853-fea9-41ef-86cf-4634ca555781")
-	)
-	(wire
-		(pts
 			(xy 134.62 55.88) (xy 134.62 54.61)
 		)
 		(stroke
@@ -5266,13 +5622,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 137.16 118.11)
+			(xy 116.84 109.22) (xy 116.84 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b48e884a-ff14-4a22-8c35-0666240dac5c")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a62f62-e473-4532-a68a-96bbe8b38700")
 	)
 	(wire
 		(pts
@@ -5423,6 +5789,16 @@
 			(type default)
 		)
 		(uuid "c25d894a-26f6-411d-a9ee-ae7c36572e69")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27bdf14-7b5a-4316-97d1-2faec18aaa42")
 	)
 	(wire
 		(pts
@@ -5636,13 +6012,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 92.71) (xy 146.05 92.71)
+			(xy 116.84 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb09952f-c25c-432e-9794-ee147068b464")
+	)
+	(wire
+		(pts
+			(xy 135.89 99.06) (xy 135.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda24d20-bcbe-4a10-b1fd-5a1bda166092")
 	)
 	(wire
 		(pts
@@ -5673,6 +6059,16 @@
 			(type default)
 		)
 		(uuid "f13651cb-9eed-47ec-9553-73cfb3610832")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43fd7f4-bcfc-4d1d-a71b-57779648f7e0")
 	)
 	(wire
 		(pts
@@ -5854,6 +6250,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 135.89 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06652182-922f-4aad-babb-da417dffe57d")
+		(property "Reference" "R18"
+			(at 137.922 96.266 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.7 96.266 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 135.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cca00824-94fd-41d3-ae16-1a7bd417b8b9")
+		)
+		(pin "2"
+			(uuid "d51c3bc8-dcc5-42aa-9130-b75448ef50b1")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 55.88 0)
 		(unit 1)
@@ -6008,6 +6484,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1170d7f3-ce9c-4ff8-9bd9-5d4bf855bef1")
+		(property "Reference" "TP7"
+			(at 140.716 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EN"
+			(at 140.716 107.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63ef2b91-80d6-4289-b337-cb2184f44f50")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NyxNods:2130830005")
 		(at 55.88 92.71 0)
 		(unit 1)
@@ -6039,7 +6593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2130830005:MOLEX_2130830005"
+		(property "Footprint" "NyxNods:MOLEX_2130830005"
 			(at 55.88 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6455,7 +7009,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 134.62 91.44 0)
+		(at 114.3 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6465,7 +7019,7 @@
 		(dnp no)
 		(uuid "248af53b-d16e-4741-96f5-0e6fdc608672")
 		(property "Reference" "#PWR032"
-			(at 134.62 95.25 0)
+			(at 114.3 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +7030,7 @@
 			)
 		)
 		(property "Value" "VBATT"
-			(at 134.62 87.63 0)
+			(at 114.3 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6486,7 +7040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 91.44 0)
+			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +7051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 91.44 0)
+			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,7 +7062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 134.62 91.44 0)
+			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,6 +7711,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 127 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5994a398-846b-4e7f-832e-52d51263236d")
+		(property "Reference" "R19"
+			(at 129.032 140.716 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 140.716 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 127 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d496ef7f-e146-477d-8107-6c55414362cd")
+		)
+		(pin "2"
+			(uuid "9b4e750c-84f5-4355-87d8-7ab231fcf775")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 25.4 0)
 		(unit 1)
@@ -7266,7 +7900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2130830005:MOLEX_2130830005"
+		(property "Footprint" "NyxNods:MOLEX_2130830005"
 			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8192,7 +8826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_2065-100/998-403_WAG"
+		(property "Footprint" "NyxNods:CONN_2065-100&slash_998-403_WAG"
 			(at 107.95 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8588,7 +9222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+		(property "Footprint" "NyxNods:LED_LTST-C235KGKRKT"
 			(at 203.2 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9324,7 +9958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 106.68 0)
+		(at 116.84 106.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9335,7 +9969,7 @@
 		(dnp no)
 		(uuid "9747e66d-51f9-4373-b2da-95b7466516b7")
 		(property "Reference" "C6"
-			(at 134.62 105.4162 0)
+			(at 114.3 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9346,7 +9980,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 134.62 107.9562 0)
+			(at 114.3 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9357,7 +9991,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 137.16 106.68 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9368,7 +10002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 106.68 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +10013,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 106.68 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9743,7 +10377,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 118.11 0)
+		(at 116.84 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9753,7 +10387,7 @@
 		(dnp no)
 		(uuid "a68745ea-0cdb-42ca-8a3c-5f06d49faf44")
 		(property "Reference" "#PWR031"
-			(at 137.16 124.46 0)
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9764,7 +10398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 121.92 0)
+			(at 116.84 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9774,7 +10408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 118.11 0)
+			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9785,7 +10419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 118.11 0)
+			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9796,7 +10430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 118.11 0)
+			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +10486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CPG-04-TH-TR:SAMESKY_CPG-04-TH-TR"
+		(property "Footprint" "NyxNods:SAMESKY_CPG-04-TH-TR"
 			(at 232.41 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9978,7 +10612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+		(property "Footprint" "NyxNods:LED_LTST-C235KGKRKT"
 			(at 198.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10341,7 +10975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SRP4020TA-2R2M:IND_SRP4020TA-2R2M"
+		(property "Footprint" "NyxNods:IND_SRP4020TA-2R2M"
 			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ24072TRGTR:QFN50P300X300X100-17N"
+		(property "Footprint" "NyxNods:QFN50P300X300X100-17N"
 			(at 169.672 85.344 0)
 			(hide yes)
 			(show_name no)
@@ -10733,6 +11367,156 @@
 		)
 	)
 	(symbol
+		(lib_id "NyxNods:EVQ-PUC02K")
+		(at 135.89 134.62 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad0da506-c92b-4db7-af42-0e1e227bf3bd")
+		(property "Reference" "S1"
+			(at 139.7 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EVQ-PUC02K"
+			(at 142.24 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NyxNods:EVQPUC02K"
+			(at 40.97 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_smalls_side.pdf"
+			(at -59.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+			(at 135.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.95"
+			(at -259.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "667-EVQ-PUC02K"
+			(at -359.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-PUC02K?qs=whhzBCqEXCul2KyreRT2SA%3D%3D"
+			(at -459.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -559.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-PUC02K"
+			(at -659.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "3b06b55a-3e4e-46f7-98eb-4dc13f25570c")
+		)
+		(pin "1"
+			(uuid "5c3f5e10-d612-4bb0-9fdc-e1b08dabeea7")
+		)
+		(pin "3"
+			(uuid "25d8cd9d-9dd3-4e6c-ac94-56910d29f697")
+		)
+		(pin "4"
+			(uuid "d4ffedbe-d4a9-434d-af7b-08d48210363e")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NyxNods:S2B-PH-SM4-TB_LF__SN_")
 		(at 100.33 46.99 0)
 		(mirror y)
@@ -10766,7 +11550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
+		(property "Footprint" "NyxNods:JST_S2B-PH-SM4-TB_LF__SN_"
 			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11027,6 +11811,83 @@
 			(project "NyxNodsMotherboard"
 				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5e444fe-e7aa-412c-9544-886cf0bf073d")
+		(property "Reference" "#PWR034"
+			(at 127 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70cf9311-6759-4e20-b248-40f33b81b6fd")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11376,7 +12237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+		(property "Footprint" "NyxNods:LED_LTST-C235KGKRKT"
 			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11665,7 +12526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CPG-04-TH-TR:SAMESKY_CPG-04-TH-TR"
+		(property "Footprint" "NyxNods:SAMESKY_CPG-04-TH-TR"
 			(at 232.41 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11791,7 +12652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTST-C235KGKRKT:LED_LTST-C235KGKRKT"
+		(property "Footprint" "NyxNods:LED_LTST-C235KGKRKT"
 			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12356,6 +13217,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 127 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "de212bf5-6cb0-450a-ba78-a63c51e31167")
+		(property "Reference" "R20"
+			(at 124.968 112.776 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 123.19 112.776 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 127 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4850402-7d11-4bdf-a2b4-6e8c37776e80")
+		)
+		(pin "2"
+			(uuid "2fa9983c-c970-4340-84ac-68009d270538")
+		)
+		(instances
+			(project "NyxNodsMotherboard"
+				(path "/c8aa8e26-5b2f-49b8-a1c0-6e7b3101de21"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 193.04 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -12855,7 +13795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_2065-100/998-403_WAG"
+		(property "Footprint" "NyxNods:CONN_2065-100&slash_998-403_WAG"
 			(at 107.95 74.93 0)
 			(hide yes)
 			(show_name no)
